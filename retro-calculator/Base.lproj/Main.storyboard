@@ -6,8 +6,14 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Minecrafter.Alt.ttf">
+            <string>MinecrafterAlt</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -201,6 +207,16 @@
                                     <constraint firstAttribute="width" constant="238" id="ErE-5x-7v0"/>
                                     <constraint firstAttribute="height" constant="32" id="kZE-R4-9xh"/>
                                 </constraints>
+                                <fontDescription key="fontDescription" name="MinecrafterAlt" family="Minecrafter Alt" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Test app: Binh Nguyen" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n5I-lM-Aew">
+                                <rect key="frame" x="147" y="638" width="220" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="220" id="Ro5-LA-2MC"/>
+                                    <constraint firstAttribute="height" constant="21" id="pIp-I3-iZz"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -208,9 +224,11 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="n5I-lM-Aew" secondAttribute="bottom" constant="8" id="1bk-hR-gNu"/>
                             <constraint firstItem="BAR-WS-jGf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5Md-gO-6xl"/>
                             <constraint firstItem="6uM-bp-mMg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6LU-0x-4WK"/>
                             <constraint firstItem="6uM-bp-mMg" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="8OE-Qx-ggy"/>
+                            <constraint firstItem="n5I-lM-Aew" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" constant="8" id="92A-rB-v4Q"/>
                             <constraint firstItem="BHb-2H-uAo" firstAttribute="centerX" secondItem="BAR-WS-jGf" secondAttribute="centerX" id="U6P-yU-R5l"/>
                             <constraint firstItem="6uM-bp-mMg" firstAttribute="top" secondItem="BAR-WS-jGf" secondAttribute="bottom" constant="8" id="b79-Pw-J97"/>
                             <constraint firstItem="yXb-pK-L04" firstAttribute="centerX" secondItem="6uM-bp-mMg" secondAttribute="centerX" id="d3A-sO-d9T"/>
