@@ -14,6 +14,7 @@
 		B77C4B5A1F4F0924004A50E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B77C4B581F4F0924004A50E4 /* LaunchScreen.storyboard */; };
 		B77C4B651F4F0924004A50E4 /* retro_calculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77C4B641F4F0924004A50E4 /* retro_calculatorTests.swift */; };
 		B7CA28291F51851400A0067F /* Minecrafter.Alt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B7CA28281F51851400A0067F /* Minecrafter.Alt.ttf */; };
+		B7CA282B1F5186F600A0067F /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = B7CA282A1F5186F600A0067F /* btn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		B77C4B641F4F0924004A50E4 /* retro_calculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = retro_calculatorTests.swift; sourceTree = "<group>"; };
 		B77C4B661F4F0924004A50E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B7CA28281F51851400A0067F /* Minecrafter.Alt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecrafter.Alt.ttf; sourceTree = "<group>"; };
+		B7CA282A1F5186F600A0067F /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		B77C4B4E1F4F0924004A50E4 /* retro-calculator */ = {
 			isa = PBXGroup;
 			children = (
+				B7CA282A1F5186F600A0067F /* btn.wav */,
 				B7CA28281F51851400A0067F /* Minecrafter.Alt.ttf */,
 				B77C4B4F1F4F0924004A50E4 /* AppDelegate.swift */,
 				B77C4B511F4F0924004A50E4 /* ViewController.swift */,
@@ -184,6 +187,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7CA282B1F5186F600A0067F /* btn.wav in Resources */,
 				B77C4B5A1F4F0924004A50E4 /* LaunchScreen.storyboard in Resources */,
 				B77C4B571F4F0924004A50E4 /* Assets.xcassets in Resources */,
 				B7CA28291F51851400A0067F /* Minecrafter.Alt.ttf in Resources */,
